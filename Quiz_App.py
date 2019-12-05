@@ -46,24 +46,12 @@ for question in quiz:
 
     its_answer=input("Write Correct Option No Here like 1,2,3: ")
 
-    #i was try to make correct this app for multiple right options....:( but i was failed
-    #if can do it correct please inform me
-    # a=len(question["answer"])
-    # if a>1:
-    #     for ans in range(a):
-    #         its_answer==question["answer"][ans] and question["answer"][ans] and question["answer"][ans]
-    #         score+=1
-    # else:
 
-    #To check both are same or not you can print it to show the right option after answer
-    # print(its_answer)
-    # print(question["answer"])
+
     if (its_answer==question["answer"]):
         score+=1
-        # to check if statement isworking or not
-        # print(score)
+
 pcntg=(score/len(quiz))*100
 print("Your Result Score is ",score)
 print("Your Percentage is "+str(pcntg)+"%")
-#This input is just to stop the screen
-for_resume=input()
+resume=input()
