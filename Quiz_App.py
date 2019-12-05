@@ -65,3 +65,5 @@ for question in quiz:
 pcntg=(score/len(quiz))*100
 print("Your Result Score is ",score)
 print("Your Percentage is "+str(pcntg)+"%")
+#This input is just to stop the screen
+for_resume=input()
